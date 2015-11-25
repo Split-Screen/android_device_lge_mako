@@ -1,6 +1,5 @@
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 768
+PAC_BOOTANIMATION_NAME := 768
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/pac/config/common_full_phone.mk)
