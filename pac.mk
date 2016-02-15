@@ -2,7 +2,7 @@
 PAC_BOOTANIMATION_NAME := 768
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/pac/config/common_full_phone.mk)
+$(call inherit-product, vendor/pac/config/common_mini_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/pac/config/nfc_enhanced.mk)
